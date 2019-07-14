@@ -1,4 +1,4 @@
-#Author: instructor@syntaxtechs.co
+#Author: instructor@syntaxtechs.com
 @jobtitle
 Feature: Job Title
   Valiation for job title functionality
@@ -9,7 +9,7 @@ Feature: Job Title
     And I click on job
     And I click on jobtitle
 
-  @smoke @sprint5 @test
+  @smoke @sprint5
   Scenario Outline: Add Job
     When I click on addJobTitle
     And I enter job "<Title>", "<Description>" and job "<Specification>"
@@ -38,7 +38,7 @@ Feature: Job Title
       | Human Resources Representative  | Representative | /src/test/resources/testdata/JobDescription.docx |
       | Public Relations Representative | Representative | /src/test/resources/testdata/JobDescription.docx |
 
-  @db
+  @db @regression
   Scenario Outline: Job Title Validation
     When I get all job titles from UI
     And I execute "<Query>" from Database

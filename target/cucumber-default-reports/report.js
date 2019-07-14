@@ -1,14 +1,53 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AddEmployee.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/JobTitle.feature");
 formatter.feature({
-  "name": "Add Employee",
-  "description": "",
+  "name": "Job Title",
+  "description": "  Valiation for job title functionality",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@addEmployee"
+      "name": "@jobtitle"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "Job Title Validation",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@db"
     },
     {
-      "name": "@sprint5"
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I get all job titles from UI",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I execute \"\u003cQuery\u003e\" from Database",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Job titles are matched",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "Query"
+      ]
+    },
+    {
+      "cells": [
+        "SELECT JOB_TITLE FROM JOBS ORDER BY 1"
+      ]
     }
   ]
 });
@@ -16,6 +55,9 @@ formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.before({
   "status": "passed"
@@ -31,88 +73,84 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click on PIM link",
+  "name": "I click on Admin link",
   "keyword": "And "
 });
 formatter.match({
-  "location": "AddEmployeeSteps.i_click_on_PIM_link()"
+  "location": "SkillsSteps.i_click_on_Admin_link()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click on  Add Employee link",
+  "name": "I click on job",
   "keyword": "And "
 });
 formatter.match({
-  "location": "AddEmployeeSteps.i_click_on_Add_Employee_link()"
+  "location": "JobTitleSteps.i_click_on_job()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on jobtitle",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "JobTitleSteps.i_click_on_jobtitle()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Add Employee Labels Verification",
+  "name": "Job Title Validation",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@addEmployee"
+      "name": "@jobtitle"
     },
     {
-      "name": "@sprint5"
+      "name": "@db"
     },
     {
       "name": "@regression"
-    },
-    {
-      "name": "@temp"
     }
   ]
 });
 formatter.step({
-  "name": "I see following labels",
-  "rows": [
-    {
-      "cells": [
-        "First Names"
-      ]
-    },
-    {
-      "cells": [
-        "Middle Name"
-      ]
-    },
-    {
-      "cells": [
-        "Last Name"
-      ]
-    },
-    {
-      "cells": [
-        "Employee Id"
-      ]
-    },
-    {
-      "cells": [
-        "Location"
-      ]
-    },
-    {
-      "cells": [
-        "Create Login Details"
-      ]
-    }
-  ],
+  "name": "I get all job titles from UI",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "JobTitleSteps.i_get_all_job_titles_from_UI()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I execute \"SELECT JOB_TITLE FROM JOBS ORDER BY 1\" from Database",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "JobTitleSteps.i_execute_from_Database(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Job titles are matched",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AddEmployeeSteps.i_see_following_labels(DataTable)"
+  "location": "JobTitleSteps.job_titles_are_matched()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.orangehrm.steps.AddEmployeeSteps.i_see_following_labels(AddEmployeeSteps.java:95)\n\tat ✽.I see following labels(file:src/test/resources/features/AddEmployee.feature:32)\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
+formatter.after({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

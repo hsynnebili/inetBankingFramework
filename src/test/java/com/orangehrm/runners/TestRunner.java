@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		,glue="com/orangehrm/steps"
 		//,dryRun=true
 		,monochrome=true
-		,tags= {"@temp"}    
+		,tags= {"@db"}    
 		,plugin = {"pretty", "html:target/cucumber-default-reports", "json:target/cucumber.json"}
 		)
 

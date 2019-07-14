@@ -36,9 +36,3 @@ Feature: Locations
       | Fax             |
       | Address         |
       | Notes           |
-
-  @db
-  Scenario: Locations City Validation
-    When I get all location cities from UI
-    And I execute "<Query>" from Database
-    Then Location cities are matched

@@ -48,8 +48,8 @@ public class ProcessResulSet {
 		
 		Map<String, String> map=new HashMap<String, String>();
 		map.put("first_name", "Alexander");
-		map.put("first_name", "Bruce");
-		map.put("first_name", "David");
+		map.put("last_name", "Bruce");
+		map.put("middle_name", "David");
 		
 		System.out.println(map.size());
 		System.out.println(map);
@@ -102,7 +102,7 @@ public class ProcessResulSet {
 				rsMap.put(rsMetaData.getColumnName(i), rs.getObject(i).toString());
 				
 			}
-			
+		
 			rsList.add(rsMap);
 		}
 
