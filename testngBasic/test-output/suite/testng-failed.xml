@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="value_2" value="5"/>
+  <parameter name="send_message" value="My name is Huseyin"/>
+  <parameter name="value_1" value="10"/>
+  <parameter name="url" value="https://www.seleniumeasy.com/test/basic-first-form-demo.html"/>
+  <test thread-count="5" name="Parameters_Seleniumeasy(failed)">
+    <classes>
+      <class name="Recap.Parameters_Seleniumeasy">
+        <methods>
+          <include name="Single_Input_Field"/>
+          <include name="Two_Input_Field"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Recap.Parameters_Seleniumeasy -->
+    </classes>
+  </test> <!-- Parameters_Seleniumeasy(failed) -->
+</suite> <!-- Failed suite [Suite] -->

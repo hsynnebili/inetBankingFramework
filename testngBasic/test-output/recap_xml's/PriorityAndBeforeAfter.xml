@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG_Recap">
+	<test name="testNG_test">
+		<classes>
+			<class name="Recap.PriorityAndBeforeAfter">
+				<methods>
+					<exclude name="test_3" />
+
+				</methods>
+
+			</class>
+
+		</classes>
+	</test>
+</suite>

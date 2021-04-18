@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://www.facebook.com/" />
+	<parameter name="email" value="fatihsaki@yandex.com" />
+	<parameter name="pass" value="2112522hn" />
+	
+	<test thread-count="5" name="Facebook_With_Parameters">
+		<classes>
+			<class name="Recap.Facebook_With_Parameters" />
+		</classes>
+	</test>
+</suite>

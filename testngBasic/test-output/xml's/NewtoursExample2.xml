@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<groups>
+<run>
+<exclude name ="Smoke"/>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="com.class3.NewtoursExample2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

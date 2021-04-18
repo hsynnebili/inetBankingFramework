@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<parameter name="browser" value="chrome" />
+	<parameter name="url"
+		value="https://www.seleniumeasy.com/test/basic-first-form-demo.html" />
+	<parameter name="send_message" value="My name is Huseyin" />
+	<parameter name="value_1" value="10" />
+	<parameter name="value_2" value="5" />
+
+	<test thread-count="5" name="Parameters_Seleniumeasy">
+		<classes>
+			<class name="Recap.Parameters_Seleniumeasy" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="methods">
+  <test thread-count="2" name="Saucedemo Test Case(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Recap.Saucedemo">
+        <methods>
+          <include name="photo"/>
+          <include name="display"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Recap.Saucedemo -->
+    </classes>
+  </test> <!-- Saucedemo Test Case(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

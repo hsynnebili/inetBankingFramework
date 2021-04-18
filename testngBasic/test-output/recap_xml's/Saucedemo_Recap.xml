@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="methods"
+	thread-count="2">
+	<test name="Saucedemo Test Case">
+
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="Recap.Saucedemo">
+				<methods>
+					<exclude name="add" />
+					<exclude name="getElement" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

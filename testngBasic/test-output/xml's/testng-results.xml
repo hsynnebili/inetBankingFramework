@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61744" started-at="2019-06-12T21:57:43Z" finished-at="2019-06-12T21:58:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61744" started-at="2019-06-12T21:57:43Z" finished-at="2019-06-12T21:58:45Z">
+      <class name="com.class5.ToolsQaEcample">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="setUP" is-config="true" duration-ms="7582" started-at="2019-06-12T21:57:43Z" finished-at="2019-06-12T21:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="getData" duration-ms="9072" started-at="2019-06-12T21:57:51Z" data-provider="setUpData" finished-at="2019-06-12T21:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[huseyin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nebili]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-00-0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="tearDown" is-config="true" duration-ms="2196" started-at="2019-06-12T21:58:00Z" finished-at="2019-06-12T21:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="setUP" is-config="true" duration-ms="5192" started-at="2019-06-12T21:58:02Z" finished-at="2019-06-12T21:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="getData" duration-ms="8855" started-at="2019-06-12T21:58:07Z" data-provider="setUpData" finished-at="2019-06-12T21:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mustafa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dama]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-01-0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="tearDown" is-config="true" duration-ms="244" started-at="2019-06-12T21:58:16Z" finished-at="2019-06-12T21:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="setUP" is-config="true" duration-ms="5251" started-at="2019-06-12T21:58:16Z" finished-at="2019-06-12T21:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="getData" duration-ms="8873" started-at="2019-06-12T21:58:22Z" data-provider="setUpData" finished-at="2019-06-12T21:58:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[musk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-02-0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="tearDown" is-config="true" duration-ms="227" started-at="2019-06-12T21:58:31Z" finished-at="2019-06-12T21:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="setUP" is-config="true" duration-ms="5190" started-at="2019-06-12T21:58:31Z" finished-at="2019-06-12T21:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="getData" duration-ms="8774" started-at="2019-06-12T21:58:36Z" data-provider="setUpData" finished-at="2019-06-12T21:58:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mehmet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-03-0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class5.ToolsQaEcample@3ffc5af1]" name="tearDown" is-config="true" duration-ms="236" started-at="2019-06-12T21:58:45Z" finished-at="2019-06-12T21:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class5.ToolsQaEcample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

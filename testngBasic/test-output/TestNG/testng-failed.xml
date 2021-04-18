@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG]">
+  <test thread-count="5" name="Methot Test Cases(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Recap.Saucedemo">
+        <methods>
+          <include name="add"/>
+          <include name="getElement"/>
+          <include name="photo"/>
+          <include name="display"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Recap.Saucedemo -->
+    </classes>
+  </test> <!-- Methot Test Cases(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
