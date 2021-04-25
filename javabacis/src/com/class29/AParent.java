@@ -1,10 +1,15 @@
 package com.class29;
 
 public abstract class AParent {
+
 	abstract void method1();
 
 	abstract void method2();
-	
+
+	public void display() {
+
+		System.out.println("ABC");
+	}
 
 }
 

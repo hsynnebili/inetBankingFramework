@@ -4,9 +4,11 @@ public class AParentTest {
 
 	public static void main(String[] args) {
 
-		AParent obj = new Child();
+		Child obj = new Child();
+
 		obj.method1();
 		obj.method2();
+		obj.display();
 
 	}
 }
